@@ -1,0 +1,20 @@
+# Core dependencies
+numpy>=1.21.0
+pandas>=1.3.0
+matplotlib>=3.4.0
+seaborn>=0.11.0
+scikit-learn>=1.0.0
+
+# Interface
+streamlit>=1.20.0
+
+# Development
+pytest>=7.0.0
+pytest-cov>=3.0.0
+black>=22.0.0
+flake8>=4.0.0
+mypy>=0.950
+
+# Documentation
+jupyterlab>=3.4.0
+notebook>=6.4.0
