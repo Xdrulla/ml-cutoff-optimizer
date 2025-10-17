@@ -1,4 +1,4 @@
-# =Ê ML Cutoff Optimizer
+# ğŸ“Š ML Cutoff Optimizer
 
 > Professional toolkit for binary classification threshold optimization with intelligent three-zone analysis
 
@@ -8,38 +8,38 @@
 
 ---
 
-## <¯ What is this?
+## ğŸ¯ What is this?
 
 **ML Cutoff Optimizer** is a Python library that helps you find the **optimal probability thresholds** for binary classification models. Instead of using a single threshold (like 0.5), it intelligently suggests **three decision zones**:
 
-- =4 **Negative Zone**: High confidence predictions for class 0
-- =á **Manual Zone**: Uncertain predictions requiring human review
-- =â **Positive Zone**: High confidence predictions for class 1
+- ğŸ”´ **Negative Zone**: High confidence predictions for class 0
+- ğŸŸ¡ **Manual Zone**: Uncertain predictions requiring human review
+- ğŸŸ¢ **Positive Zone**: High confidence predictions for class 1
 
 ### Why 3 zones instead of 1 threshold?
 
 In real-world applications, **not all predictions are equally confident**. By identifying three zones, you can:
 
- Automate high-confidence decisions
- Flag uncertain cases for manual review
- Reduce errors and improve business outcomes
- Balance precision, recall, and operational costs
+- âœ… Automate high-confidence decisions
+- âœ… Flag uncertain cases for manual review
+- âœ… Reduce errors and improve business outcomes
+- âœ… Balance precision, recall, and operational costs
 
 ---
 
-## =€ Features
+## ğŸš€ Features
 
-- =È **Visual Distribution Analysis**: Overlay population histograms to see how predictions distribute
-- <¯ **Smart Cutoff Suggestions**: Automatically find optimal thresholds based on your data
-- =Ê **Comprehensive Metrics**: Calculate precision, recall, F1, accuracy at any threshold
-- <¨ **Beautiful Visualizations**: Publication-ready plots with customizable styling
-- =' **Model Agnostic**: Works with any binary classifier (sklearn, XGBoost, neural networks, etc.)
-- =Ó **Interactive Examples**: Jupyter notebooks with real-world use cases
-- < **Web Interface**: Streamlit app for non-technical users
+- ğŸ“ˆ **Visual Distribution Analysis**: Overlay population histograms to see how predictions distribute
+- ğŸ¯ **Smart Cutoff Suggestions**: Automatically find optimal thresholds based on your data
+- ğŸ“Š **Comprehensive Metrics**: Calculate precision, recall, F1, accuracy at any threshold
+- ğŸ¨ **Beautiful Visualizations**: Publication-ready plots with customizable styling
+- ğŸ”§ **Model Agnostic**: Works with any binary classifier (sklearn, XGBoost, neural networks, etc.)
+- ğŸ““ **Interactive Examples**: Jupyter notebooks with real-world use cases
+- ğŸŒ **Web Interface**: Streamlit app for non-technical users
 
 ---
 
-## =æ Installation
+## ğŸ“¦ Installation
 
 ```bash
 # Clone the repository
@@ -59,7 +59,7 @@ pip install -e .
 
 ---
 
-## <¬ Quick Start
+## ğŸ¬ Quick Start
 
 ```python
 from ml_cutoff_optimizer import ThresholdVisualizer, CutoffOptimizer
@@ -90,6 +90,7 @@ print(f"\nJustification:\n{cutoffs['justification']}")
 ```
 
 **Output example:**
+
 ```
 Negative Zone: 0% - 35.0%
 Manual Zone: 35.0% - 72.0%
@@ -103,7 +104,7 @@ The manual zone (37% of total population) requires human review.
 
 ---
 
-## =Ú Examples
+## ğŸ“š Examples
 
 Explore real-world use cases in the `examples/notebooks/` directory:
 
@@ -113,21 +114,21 @@ Explore real-world use cases in the `examples/notebooks/` directory:
 
 ---
 
-## <¨ Visualization Gallery
+## ğŸ¨ Visualization Gallery
 
 *(Images will be added here after implementation)*
 
 ---
 
-## =Ö Documentation
+## ğŸ“– Documentation
 
 - [Methodology](docs/methodology.md) - How the optimization works
 - [API Reference](docs/api_reference.md) - Complete class/method documentation
-- [Design Decisions](DESIGN_DECISIONS.md) - Why we made certain choices
+- [Quick Start Guide](QUICKSTART.md) - Get started in 5 minutes
 
 ---
 
-## < Web Interface
+## ğŸŒ Web Interface
 
 Launch the interactive Streamlit app:
 
@@ -139,7 +140,7 @@ Upload your model predictions and explore cutoffs visually!
 
 ---
 
-## >ê Testing
+## ğŸ§ª Testing
 
 ```bash
 # Run all tests
@@ -149,21 +150,25 @@ pytest
 pytest --cov=src/ml_cutoff_optimizer --cov-report=html
 ```
 
+**Test Results:**
+- âœ… 69 tests passing (100%)
+- âœ… 96% code coverage
+
 ---
 
-## > Contributing
+## ğŸ¤ Contributing
 
 Contributions are welcome! Please check [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ---
 
-## =Ä License
+## ğŸ“„ License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## =d Author
+## ğŸ‘¤ Author
 
 **Luan Drulla**
 
@@ -172,10 +177,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## =O Acknowledgments
+## ğŸ™ Acknowledgments
 
 This project was developed as part of a machine learning course and serves as a practical tool for real-world classification problems.
 
 ---
 
-**P If you find this useful, please star the repository!**
+**â­ If you find this useful, please star the repository!**
